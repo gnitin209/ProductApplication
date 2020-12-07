@@ -1,0 +1,8 @@
+package com.example.demo.repository;
+
+public class Snippet {
+	@Lob
+	private byte[] imageContent;
+	
+}
+

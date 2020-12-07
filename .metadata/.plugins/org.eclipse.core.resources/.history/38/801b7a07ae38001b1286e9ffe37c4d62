@@ -1,0 +1,22 @@
+package com.example.demo.dto;
+
+import org.springframework.web.multipart.MultipartFile;
+
+public class GetProductDto {
+
+private int productId;
+	
+	private String productName;	
+	private byte[] imageContent;
+	private String productColor;
+	private long productPrice;
+	private int categoryId;
+	private String categoryName;
+
+	
+	public GetProductDto() {
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

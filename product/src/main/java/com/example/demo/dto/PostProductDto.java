@@ -1,0 +1,124 @@
+package com.example.demo.dto;
+
+
+import org.springframework.web.multipart.MultipartFile;
+
+
+public class PostProductDto {
+
+	private int productId;
+	
+	private String productName;	
+
+	private MultipartFile file;
+	private String productColor;
+	private long productPrice;
+	private int categoryId;
+	private String categoryName;
+
+
+	
+
+	public PostProductDto(int productId, String productName, MultipartFile file, String productColor, long productPrice,
+			int categoryId, String categoryName) {
+		super();
+		this.productId = productId;
+		this.productName = productName;
+		this.file = file;
+		this.productColor = productColor;
+		this.productPrice = productPrice;
+		this.categoryId = categoryId;
+		this.categoryName = categoryName;
+	}
+
+
+
+	public int getProductId() {
+		return productId;
+	}
+
+
+
+	public void setProductId(int productId) {
+		this.productId = productId;
+	}
+
+
+
+	public String getProductName() {
+		return productName;
+	}
+
+
+
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
+
+
+
+	public MultipartFile getFile() {
+		return file;
+	}
+
+
+
+	public void setFile(MultipartFile file) {
+		this.file = file;
+	}
+
+
+
+	public String getProductColor() {
+		return productColor;
+	}
+
+
+
+	public void setProductColor(String productColor) {
+		this.productColor = productColor;
+	}
+
+
+
+	public long getProductPrice() {
+		return productPrice;
+	}
+
+
+
+	public void setProductPrice(long productPrice) {
+		this.productPrice = productPrice;
+	}
+
+
+
+	public int getCategoryId() {
+		return categoryId;
+	}
+
+
+
+	public void setCategoryId(int categoryId) {
+		this.categoryId = categoryId;
+	}
+
+
+
+	public String getCategoryName() {
+		return categoryName;
+	}
+
+
+
+	public void setCategoryName(String categoryName) {
+		this.categoryName = categoryName;
+	}
+
+
+
+	public PostProductDto() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.example.demo.dto;
+
+public class PostProductDto {
+
+	public PostProductDto() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
